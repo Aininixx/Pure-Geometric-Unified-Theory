@@ -20,14 +20,14 @@ All physical constants, particle properties, and cosmological parameters are der
 | # | Title | Preprint (Zenodo) | Code |
 |---|-------|--------------------|------|
 | 0 | Dimensional Collapse, Eternal Rotation, and Information Conservation: The Geometric Origin of the Universe and a Theory of Everything | [DOI](https://doi.org/10.5281/zenodo.21808839) | — |
-| 1 | Purely Geometric Origin of Gauge Coupling Constants: Eternal Rotation, Triple Projection, and the Birth of Gauge Groups | [DOI](https://doi.org/10.5281/zenodo.21733782) | [code](paper1_gauge_coupling/code/) |
-| 2 | Purely Geometric Origin of Elementary Particle Mass Spectra: W/Z Bosons and Three Generations of Charged Fermions(<0.36%) | [DOI](https://doi.org/10.5281/zenodo.21733903) | [code](paper2_fermion_masses/code/) |
-| 3 | Purely Geometric Recursive Summation of the Electron Anomalous Magnetic Moment (deviation: −0.003 ppb) | [DOI](https://doi.org/10.5281/zenodo.21734037) | [code](paper3_electron_g2/code/) |
-| 4 | Purely Geometric Abundances of Dark Energy, Dark Matter, and Baryonic Matter | [DOI](https://doi.org/10.5281/zenodo.21754914) | [code](paper4_dark_sector/code/) |
-| 5 | Purely Geometric Origin of Matter-Antimatter Asymmetry and CP Violation | [DOI](https://doi.org/10.5281/zenodo.21767332) | [code](paper5_cp_violation/code/) |
-| 6 | Purely Geometric Origin of the Higgs Boson and Neutrinos: Deformation and Oscillation of the $S^3$ Structure | [DOI](https://doi.org/10.5281/zenodo.21799820) | [code](paper6_higgs_neutrino/code/) |
-| 7 | Purely Geometric Unification of Charged Lepton Anomalous Magnetic Moments: Zero-Parameter Solutions and Predictions for Muon and Tau | [DOI](https://doi.org/10.5281/zenodo.21830759) | [code](paper7_muon_tau_g2/code/) |
-| 8 | Establishment of Geometric Dynamics and Downward Compatibility: Geometric Derivation of the Hydrogen Ground-State Energy within the $S^3$ Framework | [DOI](https://doi.org/10.5281/zenodo.21889425) | [code](paper8_hydrogen/code/) |
+| 1 | Purely Geometric Origin of Gauge Coupling Constants: Eternal Rotation, Triple Projection, and the Birth of Gauge Groups | [DOI](https://doi.org/10.5281/zenodo.21733782) | [code](paper1_gauge_constants.py) |
+| 2 | Purely Geometric Origin of Elementary Particle Mass Spectra: W/Z Bosons and Three Generations of Charged Fermions (<0.36%) | [DOI](https://doi.org/10.5281/zenodo.21733903) | [code](paper2_fermion_masses.py) |
+| 3 | Purely Geometric Recursive Summation of the Electron Anomalous Magnetic Moment (deviation: −0.003 ppb) | [DOI](https://doi.org/10.5281/zenodo.21734037) | [code](paper3_electron_anomalous.py) |
+| 4 | Purely Geometric Abundances of Dark Energy, Dark Matter, and Baryonic Matter | [DOI](https://doi.org/10.5281/zenodo.21754914) | [code](paper4_cosmic_abundances.py) |
+| 5 | Purely Geometric Origin of Matter-Antimatter Asymmetry and CP Violation | [DOI](https://doi.org/10.5281/zenodo.21767332) | — |
+| 6 | Purely Geometric Origin of the Higgs Boson and Neutrinos: Deformation and Oscillation of the $S^3$ Structure | [DOI](https://doi.org/10.5281/zenodo.21799820) | [code](paper6_higgs_neutrino.py) |
+| 7 | Purely Geometric Unification of Charged Lepton Anomalous Magnetic Moments: Zero-Parameter Solutions and Predictions for Muon and Tau | [DOI](https://doi.org/10.5281/zenodo.21830759) | [code](paper7_muon_tau_g2.py) |
+| 8 | Establishment of Geometric Dynamics and Downward Compatibility: Geometric Derivation of the Hydrogen Ground-State Energy within the $S^3$ Framework | [DOI](https://doi.org/10.5281/zenodo.21889425) | [code](paper8_hydrogen_ground_state.py) |
 
 ### Key Geometric Constants
 
@@ -40,12 +40,11 @@ All physical constants, particle properties, and cosmological parameters are der
 
 ### Quick Start
 
-Each paper folder contains independent Python verification code.  
+All Python verification codes are in the root directory.  
 No external dependencies required (Python standard library only).
 
 ```bash
-cd paper3_electron_g2/code
-python3 electron_anomalous.py
+python3 paper3_electron_anomalous.py
 ```
 
 ---
@@ -66,14 +65,14 @@ python3 electron_anomalous.py
 | 序号 | 标题 | 预印本 (Zenodo) | 代码 |
 |------|------|------------------|------|
 | 0 | 维度坍缩、永恒旋转与信息守恒：宇宙起源及万物理论的几何原理 | [DOI](https://doi.org/10.5281/zenodo.21808839) | — |
-| 1 | 规范耦合常数的纯几何起源：永恒旋转、三重投影与规范群的诞生 | [DOI](https://doi.org/10.5281/zenodo.21733782) | [code](paper1_gauge_coupling/code/) |
-| 2 | 基本粒子质量谱的纯几何起源：W/Z 玻色子与三代带电费米子<0.36% | [DOI](https://doi.org/10.5281/zenodo.21733903) | [code](paper2_fermion_masses/code/) |
-| 3 | 电子反常磁矩的纯几何递归求和（偏差：−0.003 ppb） | [DOI](https://doi.org/10.5281/zenodo.21734037) | [code](paper3_electron_g2/code/) |
-| 4 | 暗能量、暗物质与重子物质的纯几何丰度 | [DOI](https://doi.org/10.5281/zenodo.21754914) | [code](paper4_dark_sector/code/) |
-| 5 | 正反物质不对称与 CP 破坏的纯几何起源 | [DOI](https://doi.org/10.5281/zenodo.21767332) | [code](paper5_cp_violation/code/) |
-| 6 | 希格斯玻色子与中微子的纯几何起源：$S^3$ 结构的形变与震动 | [DOI](https://doi.org/10.5281/zenodo.21799820) | [code](paper6_higgs_neutrino/code/) |
-| 7 | 带电轻子反常磁矩的纯几何统一：μ子与τ子的零参数解及预言 | [DOI](https://doi.org/10.5281/zenodo.21830759) | [code](paper7_muon_tau_g2/code/) |
-| 8 | 几何动力学建立与向下兼容：$S^3$ 框架氢基态能量几何推导 | [DOI](https://doi.org/10.5281/zenodo.21889425) | [code](paper8_hydrogen/code/) |
+| 1 | 规范耦合常数的纯几何起源：永恒旋转、三重投影与规范群的诞生 | [DOI](https://doi.org/10.5281/zenodo.21733782) | [code](paper1_gauge_constants.py) |
+| 2 | 基本粒子质量谱的纯几何起源：W/Z 玻色子与三代带电费米子 (<0.36%) | [DOI](https://doi.org/10.5281/zenodo.21733903) | [code](paper2_fermion_masses.py) |
+| 3 | 电子反常磁矩的纯几何递归求和（偏差：−0.003 ppb） | [DOI](https://doi.org/10.5281/zenodo.21734037) | [code](paper3_electron_anomalous.py) |
+| 4 | 暗能量、暗物质与重子物质的纯几何丰度 | [DOI](https://doi.org/10.5281/zenodo.21754914) | [code](paper4_cosmic_abundances.py) |
+| 5 | 正反物质不对称与 CP 破坏的纯几何起源 | [DOI](https://doi.org/10.5281/zenodo.21767332) | — |
+| 6 | 希格斯玻色子与中微子的纯几何起源：$S^3$ 结构的形变与震动 | [DOI](https://doi.org/10.5281/zenodo.21799820) | [code](paper6_higgs_neutrino.py) |
+| 7 | 带电轻子反常磁矩的纯几何统一：μ子与τ子的零参数解及预言 | [DOI](https://doi.org/10.5281/zenodo.21830759) | [code](paper7_muon_tau_g2.py) |
+| 8 | 几何动力学建立与向下兼容：$S^3$ 框架氢基态能量几何推导 | [DOI](https://doi.org/10.5281/zenodo.21889425) | [code](paper8_hydrogen_ground_state.py) |
 
 ### 关键几何常数
 
@@ -86,11 +85,10 @@ python3 electron_anomalous.py
 
 ### 快速验证
 
-每篇论文目录下都包含独立的 Python 验证代码，仅需 Python 标准库即可运行。
+所有 Python 验算代码均在根目录下，仅需 Python 标准库即可运行。
 
 ```bash
-cd paper3_electron_g2/code
-python3 electron_anomalous.py
+python3 paper3_electron_anomalous.py
 ```
 
 ---
