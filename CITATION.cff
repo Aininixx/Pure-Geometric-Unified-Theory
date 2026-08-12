@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the following papers."
+authors:
+  - family-names: "Yang"
+    given-names: "Xin"
+    orcid: "https://orcid.org/0009-0006-3071-2297" 
+title: "Pure Geometric Unified Theory"
+year: 2026
+repository-code: "https://github.com/Aininixx/Pure-Geometric-Unified-Theory"
+abstract: "A purely geometric unified theory of fundamental physics. Zero free parameters."
+keywords:
+  - "geometric unified theory"
+  - "fine-structure constant"
+  - "fermion masses"
+  - "anomalous magnetic moment"
+  - "dark energy"
+  - "dark matter"
+license: MIT
